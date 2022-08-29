@@ -1,3 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    align-self: baseline;
+    color: white;
+    border: hsl(158, 36%, 37%);
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 3rem;
+
+}
+
+#mobile-img {
+    display: none;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -8,4 +50,10 @@
     text-decoration: none;
 }
 
-@media (max-width: 275px) {}
+@media (max-width: 375px) {
+    #desktop-img {
+        display: none;
+    }
+}
+
+@media (max-width: 1440px) {}
