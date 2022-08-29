@@ -36,6 +36,14 @@ button {
 
 }
 
+#discount {
+    color: hsl(158, 36%, 37%);
+}
+
+#normal-price {
+    text-decoration: line-through;
+}
+
 #mobile-img {
     display: none;
 }
