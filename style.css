@@ -21,8 +21,24 @@ body {
 
 img {
     width: 200px;
-    height: 300px;
-    object-fit: fill;
+    height: 350px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding-right: 2rem;
+}
+
+#discount {
+    color: hsl(158, 36%, 37%);
+}
+
+#normal-price {
+    opacity: 0.5;
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
+#price {
+    display: flex;
 }
 
 button {
@@ -34,14 +50,6 @@ button {
     width: 20rem;
     height: 3rem;
 
-}
-
-#discount {
-    color: hsl(158, 36%, 37%);
-}
-
-#normal-price {
-    text-decoration: line-through;
 }
 
 #mobile-img {

@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Fraunces">
 
+  <script>
+    document.querySelector('.images').style.marginTop = document.querySelector('.container').style.height;
+  </script>
+
   <title>Frontend Mentor | Product preview card component</title>
 
 
@@ -18,8 +22,10 @@
 
 <body>
   <div class="container">
-    <img id="desktop-img" src="images/image-product-desktop.jpg" alt="Product Image">
-    <img id="mobile-img" src="images/image-product-mobile.jpg" alt="Product Image">
+    <div class="images">
+      <img id="desktop-img" src="images/image-product-desktop.jpg" alt="Product Image">
+      <img id="mobile-img" src="images/image-product-mobile.jpg" alt="Product Image">
+    </div>
     <section>
       <div class="text-container">
         <header>Perfume</header>
@@ -28,8 +34,10 @@
 
         <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
           Perfumer-Creator for the House of CHANEL.</p>
-        <h2 id="discount">$149.99</h2>
-        <p id="normal-price">$169.99</p>
+        <div id="price">
+          <h2 id="discount">$149.99</h2>
+          <p id="normal-price">$169.99</p>
+        </div>
       </div>
       <button>Add to Cart</button>
     </section>
