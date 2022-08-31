@@ -6,25 +6,29 @@
 
 body {
     margin: 0;
+    text-align: center;
     background-color: hsl(30, 38%, 92%);
 }
 
 .container {
     background-color: white;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     border-radius: 1rem;
     padding: 1rem;
+    width: 50vw;
+    height: 50vh;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 img {
-    width: 200px;
-    height: 350px;
+    width: 50vw;
+    height: 50vh;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     padding-right: 2rem;
+    margin-left: -1rem;
 }
 
 #discount {
